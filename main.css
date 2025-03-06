@@ -25,7 +25,7 @@ body {
 
 
 .header {
-    background-image: url('../Downloads/header-background.jpg');
+    background-image: url('./images/header-background.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -43,9 +43,9 @@ body {
 .description {
 	left: 50%;
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	transform: translate(-50%, -55%);
-	text-align: center;
+	/* text-align: center; */
 }
 .description h1 {
 	color: #F5F5DC;
